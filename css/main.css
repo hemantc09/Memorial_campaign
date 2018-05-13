@@ -1,0 +1,337 @@
+body
+{
+	background: #fff;
+    width:50%;
+    margin-left:auto;
+    margin-right:auto;  
+}
+
+
+/*this is for top logo*/
+/*img.responsive-imglogo
+{
+	height: auto;
+    max-width: 100%;
+	position: relative;
+	height: 16px;
+	
+    padding: 1em 0.5em 1em 0.5em;
+    border-style: none;
+    
+}*/
+
+/*top right bottom left: */
+
+img.responsive-imglogo {
+    height: auto;
+    max-width: 100%;
+
+    position: relative;
+    /* height: 16px; */
+    padding: 1em 0.5em 1em 0.5em;
+    border-style: none;
+}
+
+/*this is for background logo*/
+.bgimg{
+    width: 100%;
+	height: auto;
+	background-image: url("../img/Layer_6.1.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	border: none;
+	padding: 0em 0em 0em 0em;      
+	position: relative;
+	/*padding: 1em 0.5em 1em 0.5em;*/
+	border-style: none;
+
+}
+
+.parent {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.img_painted_swash
+{
+	height: auto;
+    max-width: 100%;
+
+    position: relative;
+    /* height: 16px; */
+    padding: 1em 0.5em 1em 0.5em;
+/*display: inline;
+
+    border-style: none;
+    top: 0;
+  	left: 0;*/
+  	z-index: 1;
+}
+.img_Memorial_Day_Sale
+{
+	height: auto;
+    max-width: 100%;
+
+    position: relative;
+    /* height: 16px; */
+    padding: 1em 0.5em 1em 0.5em;
+    border-style: none;
+   /* position: inherit;
+  top: 10%;
+  left: 10%;
+
+  right: 10%;
+  /*bottom: 10%;*/
+  	/*z-index: 3;*/
+
+}
+
+/*.img_Memorial_Day_Sale
+{
+	width: 100%;
+	height: auto;
+	
+	background-repeat: no-repeat;
+	
+	border: none;
+	 padding: 1em 0.5em 1em 0.5em;    
+	position: relative;
+	
+	border-style: none;
+	
+	 background-size: 300px 100px, cover;
+	position:absolute;
+		top: 1%;
+		
+		z-index: 2;
+}*/
+
+
+
+/*
+image on top of another image
+.fishes
+	{
+		position:absolute;
+		top: 10px;
+		left: 10px;
+		z-index: 1;
+	}
+	.fish
+	{
+		position:absolute;
+		top: 25px;
+		left: 25px;
+		z-index: 2;
+	}*/
+
+
+element.style {
+    background-color: #024685;
+}
+
+.center-block {
+
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+
+.header
+{
+	background-color: #024685;
+}
+
+/*color main #024685*/
+.main-container
+{
+	height: auto;
+	max-width: 100%;
+    background-color: #fff;
+}
+.row {
+
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-bottom: 0%;
+  max-width: 650px;
+}
+
+
+
+.only-font
+{
+	font-family: Bebas Neue;
+	color: #fff;
+	font-size: 3vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 14.2857px;
+	letter-spacing: 0.1vw; /*this for the spacing between letters;*/
+
+}
+.c10aweeks-font
+{
+	/*font-family: Bebas Neue;
+	color: #fff;
+	font-size: 52.57px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height:90% ;*/
+
+	font-family: Bebas Neue;
+	color: #fff;
+	font-size: 10vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1em;
+	/*letter-spacing: 0.1vw;*/ 
+}
+
+.for20-font
+{
+	/*font-family: Bebas Neue;
+	color: #fff;
+	font-size: 66.86px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height:90% ;*/
+
+	font-family: Bebas Neue;
+	color: #fff;
+	font-size: 4vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1em;
+}
+
+
+/*font weight
+font-weight: 400; //normal
+font-weight: 500; //medium
+font-weight: 700; //bold*/
+
+.unlimited-digital
+{
+	font-family: 'Roboto',sans-serif;
+	color: #fff;
+	font-size: 2vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 1em;
+
+
+
+
+	/*line-height: 14.2857px;*/
+
+}
+
+.hurry-font
+{
+	font-family: 'Roboto',sans-serif;
+	color: #ffcc00;
+	font-size: 1.4vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 1em;	
+}
+
+.takethis-font{
+	font-family: 'Roboto',sans-serif;
+	color: #fff;
+	font-size: 1.3vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 1em;	
+}
+
+.offertermsandcondition-font
+{
+	font-family: 'Roboto',sans-serif;
+	color: #fff;
+	font-size: 0.7vw;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 1em;
+}
+
+.btn-savenow {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.5vw;
+    margin: 2px 2px;
+    width: 40%;
+    height: 10%;
+    white-space: nowrap;
+    cursor: pointer;
+
+}
+
+.buttonsaveborder {border-radius: 4px;}
+
+/*.btn-savenow
+{
+	font-family: Arial;
+	color: red;
+    background-color: red;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+*/
+.footer-font
+{
+	font-family: Arial;
+	color: #fff;
+	font-size: 10px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	/*line-height: 14.2857px;*/
+
+}
+
+table,th,tr,td
+{
+
+/*	border-spacing: 10px;
+    border-collapse: separate;*/
+
+
+	width: 80%;
+	height: auto;
+	border: 0px solid red;
+	/*border-collapse: collapse;*/
+	
+
+    /*display: table;*/
+    
+    border-spacing: 0px;
+    -webkit-border-horizontal-spacing: 0;
+    -webkit-border-vertical-spacing: 0;
+
+
+}
