@@ -1,5 +1,5 @@
 
-/*by Hemant Choudhari 05-13-2018
+/*@hemantc09 v1.1.0
 */
 body
 {
@@ -27,7 +27,7 @@ body
 
 img.responsive-imglogo {
     height: auto;
-    max-width: 100%;
+    max-width: 50%;
 
     position: relative;
     /* height: 16px; */
@@ -50,11 +50,11 @@ img.responsive-imglogo {
 
 }
 
-.parent {
+/*.parent {
   position: relative;
   top: 0;
   left: 0;
-}
+}*/
 
 .img_painted_swash
 {
@@ -177,7 +177,7 @@ element.style {
 	letter-spacing: 0.1vw; /*this for the spacing between letters;*/
 
 }
-.c10aweeks-font
+.header-text
 {
 	/*font-family: Bebas Neue;
 	color: #fff;
@@ -222,7 +222,8 @@ font-weight: 400; //normal
 font-weight: 500; //medium
 font-weight: 700; //bold*/
 
-.unlimited-digital
+/*.unlimited-digital*/
+.text-promo-main
 {
 	font-family: 'Roboto',sans-serif;
 	color: #fff;
@@ -271,7 +272,7 @@ font-weight: 700; //bold*/
 	line-height: 1em;
 }
 
-.btn-savenow {
+.btn-main {
     background-color: red; /* Green */
     border: none;
     color: white;
@@ -288,7 +289,7 @@ font-weight: 700; //bold*/
 
 }
 
-.buttonsaveborder {border-radius: 4px;}
+.btn-main-border {border-radius: 4px;}
 
 /*.btn-savenow
 {
